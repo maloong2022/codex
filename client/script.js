@@ -80,7 +80,7 @@ const handleSumbit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server
-  const response = await fetch("https://codex-8ui1.onrender.com/", {
+  const response = await fetch("https://codex-tl6x.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
